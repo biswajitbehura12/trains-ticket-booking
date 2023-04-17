@@ -4,13 +4,14 @@ const asyncPostCall = async (path,reqBody,type) => {
  
     try {
       let a;
+      let token="Bearer "+localStorage.getItem("token");
 
       if(path == "/trains/train-booking" || path=="/trains/train-ticket-byuser" ){
         a= {
           method: type,
           headers: {
             'Content-Type': 'application/json',
-            Authorization:`Bearer ${localStorage.getItem("token")}`
+            "Authorization":token
             },
             body: JSON.stringify(reqBody)
           }

@@ -75,7 +75,7 @@ const handleSignOnchange=(e)=>{
 
                         <div className="input-box">
                             <span className="details">Password :</span>
-                            <input className="text-type-box" name='password' value={signup?.password} type="password" onChange={(e)=>handleSignOnchange(e)} placeholder="Enter your password"/>
+                            <input className="text-type-box" name='password' value={signup?.password} type="text" onChange={(e)=>handleSignOnchange(e)} placeholder="Enter your password"/>
                         </div>
                     </div>
 
