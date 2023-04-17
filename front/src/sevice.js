@@ -32,7 +32,7 @@ const asyncPostCall = async (path,reqBody,type) => {
             body: JSON.stringify(reqBody)
           }
       }
-        const response = await fetch(`http://localhost:5000${path}`, a
+        const response = await fetch(`https://booking-ticket-trains.onrender.com${path}`, a
        );
          const data = await response.json();
          return data;
