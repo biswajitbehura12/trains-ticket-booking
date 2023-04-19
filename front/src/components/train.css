@@ -64,6 +64,64 @@ background-color: rgb(202, 202, 211);
     background-color: darkorange;
     color: brown;
 }
+
+.detailMainContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    height: 100px;
+    justify-content: space-around;
+}
+.Detail-Container{
+    width: 80%;
+    
+}
+.Detail-Container::-webkit-scrollbar{
+     display:none;
+}
+
+.ticket-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0 auto;
+    height: 100px;
+    background: rgb(195, 238, 5);
+    padding: 10px 0px;
+    border-radius: 20px;
+    margin-bottom: 2%;
+    margin-top: 10px;
+   
+    
+}
+.booking-container{
+overflow: scroll; 
+}
+.booking-container::-webkit-scrollbar{
+    display:none;
+}
 .footer{
 
+}
+
+.train-main-box {
+    width: 80%;
+    margin: 0 auto;
+}
+.cancel-ticket-btn{
+    background-color: brown;
+    color: aliceblue;
+}
+.main-boxx {
+    background: rgb(248, 124, 9);
+    padding: 10px 0px;
+    border-radius: 20px;
+    margin-bottom: 2%;
+}
+.book-ticket-btn{
+    background-color: green;
+    color: aliceblue;
 }
